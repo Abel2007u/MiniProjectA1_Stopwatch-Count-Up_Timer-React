@@ -2,7 +2,6 @@
 
 ![GitHub top language](https://img.shields.io/github/languages/top/Abel2007u/MiniProjectA1_Stopwatch-Count-Up_Timer-React?style=for-the-badge&logo=react)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Abel2007u/MiniProjectA1_Stopwatch-Count-Up_Timer-React?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/Abel2007u/MiniProjectA1_Stopwatch-Count-Up_Timer-React?style=for-the-badge)
 
 Este repositório contém um **Stopwatch/Count-Up Timer** simples e funcional, desenvolvido com **React**. Este projeto foi criado com o objetivo de praticar conceitos fundamentais do React e construir uma aplicação útil para medir o tempo.
 
