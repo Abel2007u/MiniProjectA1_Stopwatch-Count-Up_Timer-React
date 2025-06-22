@@ -1,38 +1,78 @@
+/* App.css */
+
+/* Estilos gerais para centralizar o conteúdo */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 100vh; /* Ocupa a altura total da viewport */
+  background-color: #282c34; /* Fundo escuro */
+  color: white; /* Texto branco */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilos para o título */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #61dafb; /* Cor azul claro */
+}
+
+/* Estilos para a exibição do tempo */
+.App > div:nth-child(2) { /* Seleciona o segundo div, que contém os spans do tempo */
+  font-size: 5em;
+  font-weight: bold;
+  margin-bottom: 40px;
+  background-color: #333;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  gap: 10px; /* Espaço entre os números */
+}
+
+.App > div:nth-child(2) span {
+  width: 90px; /* Largura fixa para cada segmento do tempo */
+  text-align: center;
+}
+
+
+/* Estilos para os botões */
+.App > div:nth-child(3) button { /* Seleciona o terceiro div, que contém os botões */
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  padding: 15px 30px;
+  margin: 0 10px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.App > div:nth-child(3) button:hover {
+  background-color: #21a1f1;
+  transform: translateY(-2px);
+}
+
+.App > div:nth-child(3) button:active {
+  background-color: #1a7fb0;
+  transform: translateY(0);
+}
+
+/* Estilo específico para o botão de Stop (quando precisar de uma cor diferente) */
+.App > div:nth-child(3) button:first-child:hover { /* Se o primeiro botão for o stop */
+  background-color: #e74c3c;
+}
+
+/* Você pode adicionar mais estilos se quiser, como para o botão de Reset */
+.App > div:nth-child(3) button:last-child {
+  background-color: #f39c12; /* Laranja para o reset */
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App > div:nth-child(3) button:last-child:hover {
+  background-color: #e67e22;
 }

@@ -18,11 +18,12 @@ function App() {
   }, [running]);
 
   return (
-    <>
+    // Adicionamos a div com a classe 'App' aqui
+    <div className="App"> 
       <h1>01 - Stopwatch</h1>
       <div>
-          <span>{("0" + Math.floor((time / 60000) % 60)).slice(-2)}</span>
-          <span>{("0" + Math.floor((time / 1000) % 60)).slice(-2)}</span>
+          <span>{("0" + Math.floor((time / 60000) % 60)).slice(-2)}</span>:
+          <span>{("0" + Math.floor((time / 1000) % 60)).slice(-2)}</span>:
           <span>{("0" + ((time / 10) % 100)).slice(-2)}</span>
       </div>
 
@@ -37,7 +38,7 @@ function App() {
       </div>
 
       {/* o time é o valor atual, já o setTime o meio para alterar */}
-    </>
+    </div> // Fechamos a div 'App' aqui
     );
 }
 
