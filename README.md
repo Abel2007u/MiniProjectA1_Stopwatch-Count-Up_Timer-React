@@ -99,5 +99,5 @@ Desenvolvido por **Abel Garcia**.
 ---
 
 <p align="center">
-  <b>Divirta-se medindo o tempo!</b>
+  <b>Divirta-se medindo o tempo! (EC. 3:1)⏲️ </b>
 </p>
