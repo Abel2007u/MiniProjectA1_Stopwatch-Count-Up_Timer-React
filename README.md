@@ -36,7 +36,7 @@ O Stopwatch/Count-Up Timer oferece as seguintes funcionalidades:
 * **Iniciar:** Começa a contagem do tempo a partir de zero ou do último ponto parado.
 * **Pausar:** Interrompe a contagem, mantendo o tempo atual.
 * **Zerar (Reset):** Reinicia o cronômetro para zero.
-* **Exibição:** Mostra o tempo decorrido em um formato claro (ex: `HH:MM:SS` ou `MM:SS`).
+* **Exibição:** Mostra o tempo decorrido em um formato claro (ex: `MM:SS:MM`).
 
 ---
 
